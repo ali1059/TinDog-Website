@@ -1,0 +1,167 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3{
+  font-family: "Bevan";
+}
+
+p{
+  color:#8f8f8f;
+}
+
+/* Heading */
+.big-heading{
+  font-family: 'Bevan', sans-serif;
+    font-size: 3.5rem;
+    line-height:1.5;
+    color: #fff;
+}
+
+.section-heading{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/*CONTAINERS*/
+.container-fluid{
+  padding:7% 15%;
+}
+
+/*NAVBAR SECTION*/
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight:bold;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-family: "Montserrat-Black";
+  font-size:1.2rem;
+}
+
+.DownloadBtn{
+  margin:5% 3% 5% 0;
+}
+
+/*Title Section*/
+
+#title{
+  color: #fff;
+  background-color: #f77754;
+  text-align:left;
+}
+
+#title .container-fluid{
+  padding:3% 15% 7%;
+}
+
+.title-image{
+  width:60%;
+  transform:rotate(25deg);
+  position: absolute;
+  right:25%;
+}
+  /* Features SECTION */
+#features{
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.feature-title{
+  font-size: 1.2rem;
+}
+
+.icon{
+  color: #f77754;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+/* Testimonials SECTION*/
+#testimonials{
+  background-color: #f77754;
+  color: #fff;
+}
+
+
+
+  .testimonial-image{
+    border-radius: 100%;
+    width:15%;
+    margin: 3%;
+}
+
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+#press{
+  background-color: #f77754;
+  padding-bottom: 5%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+/* pricing section */
+#pricing{
+  padding:5%;
+}
+.pricing-column {
+padding: 3% 2%;
+}
+
+.price-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.price-title{
+  font-size: 1.2rem;
+}
+
+@media(max-width:1028px){
+#title{
+  text-align: center;
+}
+
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+}
+
+/* cta SECTION */
+#cta{
+  background-color:#f77754;
+}
+/* .cta-title{
+  font-family: "Bevan";
+  font-size: 3rem;
+  color: #fff;
+  line-height: 1.5;
+  padding-bottom:4%;
+} */
+
+
+.social-icon{
+  margin:20px 10px;
+}
